@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="nav-content">
+          <h1>Food, LLC</h1>
+        </div>
+          <div class="nav-content" id="icon">
+            <button class="navbar-toggler  d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse container-fluid" id="navbarNavDropdown">
+          <ul class="navbar-nav d-md-none">
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#chicken">Chicken</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#beef">Beef</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#sushi">Sushi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h2 class="text-center" id="menu">Our Menu</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-4 col-sm-6">
+          <div class="card" id="chicken">
+            <h4 class="text-center bold" id="chicken"><b>Chicken</b></h4>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus gravida efficitur. Nullam leo tellus, imperdiet quis maximus et, ultricies sed lacus. Suspendisse mattis ipsum vel ligula blandit, in molestie risus malesuada. Morbi volutpat gravida leo, ac ultrices diam varius ac. Pellentesque tincidunt tempus lorem. Phasellus tristique vel risus in efficitur. Nulla facilisi. Integer semper finibus erat, a mattis tortor semper et. Morbi feugiat, leo non facilisis vehicula, justo velit tincidunt ligula, in tempus nisl dolor non orci. Nulla hendrerit finibus dui et vestibulum. Aenean cursus diam et elit tincidunt convallis. Nunc quis ante id nibh pellentesque accumsan. Nunc convallis nisi vitae metus ullamcorper rhoncus. Nulla aliquam sem sed tortor congue, ut tempus enim pharetra. Proin quis mi nisi.
+              </p>
+              <p class="card-text">
+                Suspendisse in vulputate dui. Suspendisse suscipit, sapien vel ornare sodales, tellus sem euismod mi, vitae placerat diam ante non odio. Morbi eget posuere quam. Integer ornare, dui vel porttitor pretium, urna libero interdum erat, sed efficitur nibh nisi quis ligula. In urna libero, imperdiet ac porttitor consectetur, lacinia et ipsum. Curabitur ac eros nibh. Pellentesque maximus lobortis elit. Quisque non augue blandit, gravida ligula pharetra, facilisis massa. Sed ut metus vel mauris consectetur sodales. In porta nibh tincidunt, luctus nunc ac, sodales libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur nunc dolor, ut imperdiet tellus lacinia id. Mauris consequat vel orci eget condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. <br>
+              
+                Ut elit odio, elementum vel erat ac, lacinia ultricies ex. Duis tincidunt metus eu dolor tempor, non consequat massa condimentum. Sed mollis purus quis varius eleifend. Suspendisse aliquam consectetur accumsan. Integer porta nisi justo, eu consequat elit facilisis sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur pretium efficitur purus sed iaculis. Nunc finibus facilisis hendrerit. Curabitur ipsum orci, finibus et venenatis ut, bibendum ut quam. In tincidunt efficitur sem, nec porttitor nisl finibus a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque sit amet tellus id ante tincidunt commodo in a augue. Morbi sed nisi pharetra, condimentum turpis id, lacinia lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+              </p>
+              <p class="card-text">
+                Quisque vitae lorem quis risus cursus hendrerit ut sed sapien. Praesent eget nulla quis massa ornare mollis. Praesent at tellus vel tortor dictum pretium. Proin tempor sollicitudin tellus, quis fermentum nibh sollicitudin ac. Cras at facilisis leo. Praesent convallis lorem ante. Suspendisse dolor ante, ultricies ac magna et, cursus fermentum nulla. Cras porttitor a arcu ac cursus. Integer vehicula auctor est molestie malesuada. <br>
+                
+                Aenean eu urna eu augue hendrerit rutrum maximus eu lorem. Quisque tincidunt urna sit amet molestie interdum. Proin vitae felis sapien. Sed commodo leo ut sapien tincidunt viverra. Cras erat diam, euismod eu libero eleifend, volutpat aliquet risus. Sed facilisis justo dui, ac auctor nulla pellentesque vel. Pellentesque faucibus ante suscipit, ultricies nibh id, lacinia velit. Maecenas et vestibulum quam, quis ultricies metus.
+              </p>
+              <span> (End of chicken) <a href="#menu"> Back to Top</a></span>
+              <!-- class="d-sm-none d-md-block" -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card" id="beef">
+            <h4 class="text-center"><b>Beef</b></h4>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus gravida efficitur. Nullam leo tellus, imperdiet quis maximus et, ultricies sed lacus. Suspendisse mattis ipsum vel ligula blandit, in molestie risus malesuada. Morbi volutpat gravida leo, ac ultrices diam varius ac. Pellentesque tincidunt tempus lorem. Phasellus tristique vel risus in efficitur. Nulla facilisi. Integer semper finibus erat, a mattis tortor semper et. Morbi feugiat, leo non facilisis vehicula, justo velit tincidunt ligula, in tempus nisl dolor non orci. Nulla hendrerit finibus dui et vestibulum. Aenean cursus diam et elit tincidunt convallis. Nunc quis ante id nibh pellentesque accumsan. Nunc convallis nisi vitae metus ullamcorper rhoncus. Nulla aliquam sem sed tortor congue, ut tempus enim pharetra. Proin quis mi nisi. 
+              </p>
+              <p class="card-text">
+                Suspendisse in vulputate dui. Suspendisse suscipit, sapien vel ornare sodales, tellus sem euismod mi, vitae placerat diam ante non odio. Morbi eget posuere quam. Integer ornare, dui vel porttitor pretium, urna libero interdum erat, sed efficitur nibh nisi quis ligula. In urna libero, imperdiet ac porttitor consectetur, lacinia et ipsum. Curabitur ac eros nibh. Pellentesque maximus lobortis elit. Quisque non augue blandit, gravida ligula pharetra, facilisis massa. Sed ut metus vel mauris consectetur sodales. In porta nibh tincidunt, luctus nunc ac, sodales libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur nunc dolor, ut imperdiet tellus lacinia id. Mauris consequat vel orci eget condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. <br>
+              
+                Ut elit odio, elementum vel erat ac, lacinia ultricies ex. Duis tincidunt metus eu dolor tempor, non consequat massa condimentum. Sed mollis purus quis varius eleifend. Suspendisse aliquam consectetur accumsan. Integer porta nisi justo, eu consequat elit facilisis sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur pretium efficitur purus sed iaculis. Nunc finibus facilisis hendrerit. Curabitur ipsum orci, finibus et venenatis ut, bibendum ut quam. In tincidunt efficitur sem, nec porttitor nisl finibus a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque sit amet tellus id ante tincidunt commodo in a augue. Morbi sed nisi pharetra, condimentum turpis id, lacinia lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+              </p>
+              <p class="card-text">
+                Quisque vitae lorem quis risus cursus hendrerit ut sed sapien. Praesent eget nulla quis massa ornare mollis. Praesent at tellus vel tortor dictum pretium. Proin tempor sollicitudin tellus, quis fermentum nibh sollicitudin ac. Cras at facilisis leo. Praesent convallis lorem ante. Suspendisse dolor ante, ultricies ac magna et, cursus fermentum nulla. Cras porttitor a arcu ac cursus. Integer vehicula auctor est molestie malesuada. <br>
+                
+                Aenean eu urna eu augue hendrerit rutrum maximus eu lorem. Quisque tincidunt urna sit amet molestie interdum. Proin vitae felis sapien. Sed commodo leo ut sapien tincidunt viverra. Cras erat diam, euismod eu libero eleifend, volutpat aliquet risus. Sed facilisis justo dui, ac auctor nulla pellentesque vel. Pellentesque faucibus ante suscipit, ultricies nibh id, lacinia velit. Maecenas et vestibulum quam, quis ultricies metus.
+              </p>
+              <span> (End of beef) <a href="#menu"> Back to Top</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card" id="sushi">
+            <h4 class="text-center"> <b>Sushi</b> </h4>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus gravida efficitur. Nullam leo tellus, imperdiet quis maximus et, ultricies sed lacus. Suspendisse mattis ipsum vel ligula blandit, in molestie risus malesuada. Morbi volutpat gravida leo, ac ultrices diam varius ac. Pellentesque tincidunt tempus lorem. Phasellus tristique vel risus in efficitur. Nulla facilisi. Integer semper finibus erat, a mattis tortor semper et. Morbi feugiat, leo non facilisis vehicula, justo velit tincidunt ligula, in tempus nisl dolor non orci. Nulla hendrerit finibus dui et vestibulum. Aenean cursus diam et elit tincidunt convallis. Nunc quis ante id nibh pellentesque accumsan. Nunc convallis nisi vitae metus ullamcorper rhoncus. Nulla aliquam sem sed tortor congue, ut tempus enim pharetra. Proin quis mi nisi. 
+              </p>
+              <p class="card-text">
+                Suspendisse in vulputate dui. Suspendisse suscipit, sapien vel ornare sodales, tellus sem euismod mi, vitae placerat diam ante non odio. Morbi eget posuere quam. Integer ornare, dui vel porttitor pretium, urna libero interdum erat, sed efficitur nibh nisi quis ligula. In urna libero, imperdiet ac porttitor consectetur, lacinia et ipsum. Curabitur ac eros nibh. Pellentesque maximus lobortis elit. Quisque non augue blandit, gravida ligula pharetra, facilisis massa. Sed ut metus vel mauris consectetur sodales. In porta nibh tincidunt, luctus nunc ac, sodales libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur nunc dolor, ut imperdiet tellus lacinia id. Mauris consequat vel orci eget condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. <br>
+              
+                Ut elit odio, elementum vel erat ac, lacinia ultricies ex. Duis tincidunt metus eu dolor tempor, non consequat massa condimentum. Sed mollis purus quis varius eleifend. Suspendisse aliquam consectetur accumsan. Integer porta nisi justo, eu consequat elit facilisis sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur pretium efficitur purus sed iaculis. Nunc finibus facilisis hendrerit. Curabitur ipsum orci, finibus et venenatis ut, bibendum ut quam. In tincidunt efficitur sem, nec porttitor nisl finibus a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque sit amet tellus id ante tincidunt commodo in a augue. Morbi sed nisi pharetra, condimentum turpis id, lacinia lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+              </p>
+              <p class="card-text">
+                Quisque vitae lorem quis risus cursus hendrerit ut sed sapien. Praesent eget nulla quis massa ornare mollis. Praesent at tellus vel tortor dictum pretium. Proin tempor sollicitudin tellus, quis fermentum nibh sollicitudin ac. Cras at facilisis leo. Praesent convallis lorem ante. Suspendisse dolor ante, ultricies ac magna et, cursus fermentum nulla. Cras porttitor a arcu ac cursus. Integer vehicula auctor est molestie malesuada. <br>
+                
+                Aenean eu urna eu augue hendrerit rutrum maximus eu lorem. Quisque tincidunt urna sit amet molestie interdum. Proin vitae felis sapien. Sed commodo leo ut sapien tincidunt viverra. Cras erat diam, euismod eu libero eleifend, volutpat aliquet risus. Sed facilisis justo dui, ac auctor nulla pellentesque vel. Pellentesque faucibus ante suscipit, ultricies nibh id, lacinia velit. Maecenas et vestibulum quam, quis ultricies metus.
+              </p>
+              <span> (End of sushi) <a href="#menu"> Back to Top</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

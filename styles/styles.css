@@ -1,0 +1,84 @@
+:root {
+  --color-primary: #999999;
+  --font-family: 'Chams Black'
+}
+
+@font-face {
+  font-family: 'Chams Black';
+  src: url(../font/ChamsBlack.ttf);
+}
+
+* {
+  font-family: var(--font-family);
+  color: black;
+}
+
+h1 {
+  font-size: 1.5em;
+  width: 50%;
+}
+
+/* NAVBAR STYLES */
+
+h1 {
+  width: 100%;
+}
+
+nav {
+  background-color: var(--color-primary);  
+  border: 2px solid black;
+  padding-bottom: 0 !important;
+}
+
+#icon{
+  display: flex;
+  justify-content: end;;
+}
+
+.nav-content {
+  width: 40%;
+  margin: .5em .5em;
+}
+
+.navbar .container-fluid {
+  padding: 0 !important;
+}
+.background {
+  width: 100%;
+  background-color: var(--color-primary);
+}
+
+#navbarNavDropdown {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+li:first-child {
+  border-top: 2px solid black;
+}
+
+/* BODY STYLES */
+
+h4 {
+  margin-top: 10px;
+}
+div.container-fluid h2{
+  padding: 0.5em;
+}
+
+.card {
+  background-color: var(--color-primary);
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+.card-text {
+  line-height: normal;
+}
